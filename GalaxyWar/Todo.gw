@@ -1,0 +1,70 @@
+Degats d'apres-collision:
+{
+    dA = A.PrevoirDegats(B)
+    dB = B.PrevoirDegats(A)
+    A.Effets(B, dA, dB)
+    B.Effets(A, dB, dA)
+}
+
+/!\ Passer aux new/delete dans GW_BackGround /!\
+
+
+        if (/*/false && /**/(/*/true || /**/bidule < 1000))
+        {
+            truc = Data->Unites.Add(new GW_Ennemi_A(/*/false && /**/(/*/true || /**/Random(0, 10)<1)));
+        }
+        else if (/*/false && /**/(/*/true || /**/bidule < 1500))
+        {
+            truc = Data->Unites.Add(new GW_Ennemi_B(/*/false && /**/(/*/true || /**/Random(0, 10)<1)));
+        }
+        else if (/*/false && /**/(/*/true || /**/bidule < 1750))
+        {
+            truc = Data->Unites.Add(new GW_Ennemi_C(/*/false && /**/(/*/true || /**/Random(0, 10)<1)));
+        }
+        else if (/*/false && /**/(/*/true || /**/bidule < 2000))
+        {
+            truc = Data->Unites.Add(new GW_Ennemi_D(/*/false && /**/(/*/true || /**/Random(0, 10)<1)));
+        }
+        else if (/*/false && /**/(/*/true || /**/bidule < 2100))
+        {
+            truc = Data->Unites.Add(new GW_Ennemi_E(
+                                        Random(0, 2)+
+                                        3/**/*(Random(0, 10)/10)
+                                        ));
+        }
+        else if (/*/false && /**/(/*/true || /**/bidule < 2106))
+        {
+            truc = Data->Unites.Add(new GW_Ennemi_F(/*/false && /**/(/*/true || /**/Random(0, 10)<1)));
+        }
+        else if (/*/false && /**/(/*/true || /**/bidule < 2300))
+        {
+            truc = Data->Unites.Add(new GW_Ennemi_G(/*/false && /**/(/*/true || /**/Random(0, 10)<1)));
+        }
+        else if (/*/false && /**/(/*/true || /**/bidule == 2300))
+        {
+            truc = Data->Unites.Add(new GW_Ennemi_H(/*/false && /**/(/*/true || /**/Random(0, 10)<1)));
+        }
+        else if (/*/false && /**/(/*/true || /**/bidule < 2450))
+        {
+            truc = Data->Unites.Add(new GW_Ennemi_I(/*/false && /**/(/*/true || /**/Random(0, 10)<1)));
+        }
+        else if (/*/false && /**/(/*/true || /**/bidule < 2500))
+        {
+            truc = Data->Unites.Add(new GW_Ennemi_J(/*/false && /**/(/*/true || /**/Random(0, 10)<1)));
+        }
+        else if (/*/false && /**/(/*/true || /**/bidule == 10000))
+        {
+            truc = Data->Unites.Add(new GW_Ennemi_K(/*/false && /**/(/*/true || /**/Random(0, 10)<1)));
+        }
+        else if (/*/false && /**/(/*/true || /**/bidule < 2520))
+        {
+            truc = Data->Unites.Add(new GW_Ennemi_L());
+        }
+        else if (/*/false && /**/(/*/true || /**/bidule < 2550))
+        {
+            truc = Data->Unites.Add(new GW_Ennemi_M(/*/false && /**/(/*/true || /**/Random(0, 10)<1)));
+        }
+        else
+        {
+            ;
+        }

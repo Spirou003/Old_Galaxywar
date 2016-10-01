@@ -1,0 +1,2007 @@
+# depslib dependency file v1.0
+1315373126 source:c:\users\julien\desktop\galaxywar\c\gw_background.cpp
+	"../h/GW_GraphicsIncluser.hpp"
+	"../h/GW_BackGround.hpp"
+	"../h/GW_Functions.hpp"
+
+1311957787 c:\users\julien\desktop\galaxywar\h\gw_incluser.hpp
+	"GW_Constantes.hpp"
+	"GW_JeuData.hpp"
+	"GW_TSL.hpp"
+	"GW_ArrayList.hpp"
+	"GW_VolatileAdmin.hpp"
+	"GW_Volatile.hpp"
+	"GW_BoomAnim.hpp"
+	"GW_Number.hpp"
+	"GW_SquaredNode.hpp"
+	"GW_Functions.hpp"
+	"GW_KeySettings.hpp"
+	"GW_Palette.hpp"
+	"GW_Collisionnable.hpp"
+	"GW_Tir.hpp"
+	"GW_Ennemi.hpp"
+	"GW_Jeu.hpp"
+	"GW_Menu.hpp"
+	"GW_BackGround.hpp"
+	"GW_GameSet.hpp"
+
+1315334497 c:\users\julien\desktop\galaxywar\h\gw_constantes.hpp
+	<cstdlib>
+	<cstdio>
+	"Typedefs.hpp"
+
+1308752278 c:\users\julien\desktop\lib\sfml\graphics.hpp
+	<SFML/Window.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Graphics/Glyph.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Graphics/PostFX.hpp>
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Shape.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/String.hpp>
+	<SFML/Graphics/View.hpp>
+
+1308752280 c:\users\julien\desktop\lib\sfml\window.hpp
+	<SFML/System.hpp>
+	<SFML/Window/Context.hpp>
+	<SFML/Window/Event.hpp>
+	<SFML/Window/Input.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/Window.hpp>
+	<SFML/Window/WindowListener.hpp>
+	<SFML/Window/WindowStyle.hpp>
+	<SFML/Window/OpenGL.hpp>
+
+1308752278 c:\users\julien\desktop\lib\sfml\system.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/Lock.hpp>
+	<SFML/System/Mutex.hpp>
+	<SFML/System/Randomizer.hpp>
+	<SFML/System/Sleep.hpp>
+	<SFML/System/Thread.hpp>
+	<SFML/System/Unicode.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Vector3.hpp>
+
+1308748678 c:\users\julien\desktop\lib\sfml\config.hpp
+	<climits>
+
+1308748678 c:\users\julien\desktop\lib\sfml\system\clock.hpp
+	<SFML/Config.hpp>
+
+1308752280 c:\users\julien\desktop\lib\sfml\system\lock.hpp
+	<SFML/System/NonCopyable.hpp>
+
+1308748680 c:\users\julien\desktop\lib\sfml\system\noncopyable.hpp
+	<SFML/Config.hpp>
+
+1308752280 c:\users\julien\desktop\lib\sfml\system\mutex.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Win32/Mutex.hpp>
+	<SFML/System/Unix/Mutex.hpp>
+
+1308752280 c:\users\julien\desktop\lib\sfml\system\win32\mutex.hpp
+	<SFML/System/NonCopyable.hpp>
+	<windows.h>
+
+1308752280 c:\users\julien\desktop\lib\sfml\system\unix\mutex.hpp
+	<SFML/System/NonCopyable.hpp>
+	<pthread.h>
+
+1308748680 c:\users\julien\desktop\lib\sfml\system\randomizer.hpp
+	<SFML/Config.hpp>
+
+1308752280 c:\users\julien\desktop\lib\sfml\system\sleep.hpp
+	<SFML/Config.hpp>
+
+1308752280 c:\users\julien\desktop\lib\sfml\system\thread.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Win32/Thread.hpp>
+	<SFML/System/Unix/Thread.hpp>
+
+1308752280 c:\users\julien\desktop\lib\sfml\system\win32\thread.hpp
+	<SFML/System/NonCopyable.hpp>
+	<windows.h>
+
+1308752280 c:\users\julien\desktop\lib\sfml\system\unix\thread.hpp
+	<SFML/System/NonCopyable.hpp>
+	<pthread.h>
+
+1308748680 c:\users\julien\desktop\lib\sfml\system\unicode.hpp
+	<SFML/Config.hpp>
+	<iterator>
+	<locale>
+	<string>
+	<stdlib.h>
+	<SFML/System/Unicode.inl>
+
+1308748680 c:\users\julien\desktop\lib\sfml\system\unicode.inl
+
+1308748680 c:\users\julien\desktop\lib\sfml\system\vector2.hpp
+	<SFML/System/Vector2.inl>
+
+1308748680 c:\users\julien\desktop\lib\sfml\system\vector2.inl
+
+1308752280 c:\users\julien\desktop\lib\sfml\system\vector3.hpp
+	<SFML/System/Vector3.inl>
+
+1308752280 c:\users\julien\desktop\lib\sfml\system\vector3.inl
+
+1308752280 c:\users\julien\desktop\lib\sfml\window\context.hpp
+	<SFML/Config.hpp>
+	<SFML/System/NonCopyable.hpp>
+
+1308748680 c:\users\julien\desktop\lib\sfml\window\event.hpp
+	<SFML/Config.hpp>
+
+1308748680 c:\users\julien\desktop\lib\sfml\window\input.hpp
+	<SFML/Config.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/Window/Event.hpp>
+	<SFML/Window/WindowListener.hpp>
+
+1308748680 c:\users\julien\desktop\lib\sfml\window\windowlistener.hpp
+	<SFML/Config.hpp>
+
+1308748680 c:\users\julien\desktop\lib\sfml\window\videomode.hpp
+	<SFML/Config.hpp>
+	<cstdlib>
+
+1308748680 c:\users\julien\desktop\lib\sfml\window\window.hpp
+	<SFML/Window/Event.hpp>
+	<SFML/Window/Input.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/WindowHandle.hpp>
+	<SFML/Window/WindowListener.hpp>
+	<SFML/Window/WindowSettings.hpp>
+	<SFML/Window/WindowStyle.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<queue>
+	<string>
+
+1308748680 c:\users\julien\desktop\lib\sfml\window\windowhandle.hpp
+	<SFML/Config.hpp>
+
+1308748680 c:\users\julien\desktop\lib\sfml\window\windowsettings.hpp
+
+1308748680 c:\users\julien\desktop\lib\sfml\window\windowstyle.hpp
+
+1308752280 c:\users\julien\desktop\lib\sfml\window\opengl.hpp
+	<SFML/Config.hpp>
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+
+1308748678 c:\users\julien\desktop\lib\sfml\graphics\color.hpp
+	<SFML/Config.hpp>
+
+1308748678 c:\users\julien\desktop\lib\sfml\graphics\font.hpp
+	<SFML/System/Resource.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Unicode.hpp>
+	<SFML/Graphics/Glyph.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<map>
+	<string>
+
+1308748680 c:\users\julien\desktop\lib\sfml\system\resource.hpp
+	<set>
+	<SFML/System/Resource.inl>
+	<SFML/System/ResourcePtr.inl>
+
+1308748680 c:\users\julien\desktop\lib\sfml\system\resource.inl
+
+1308748680 c:\users\julien\desktop\lib\sfml\system\resourceptr.inl
+
+1308748678 c:\users\julien\desktop\lib\sfml\graphics\glyph.hpp
+	<SFML/Config.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1308748678 c:\users\julien\desktop\lib\sfml\graphics\rect.hpp
+	<algorithm>
+	<SFML/Graphics/Rect.inl>
+
+1308748678 c:\users\julien\desktop\lib\sfml\graphics\rect.inl
+
+1308748678 c:\users\julien\desktop\lib\sfml\graphics\image.hpp
+	<SFML/System/Resource.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<string>
+	<vector>
+
+1308752278 c:\users\julien\desktop\lib\sfml\graphics\postfx.hpp
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Image.hpp>
+	<istream>
+	<map>
+	<string>
+
+1309181620 c:\users\julien\desktop\lib\sfml\graphics\drawable.hpp
+	<SFML/System/Vector2.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Matrix3.hpp>
+
+1308748678 c:\users\julien\desktop\lib\sfml\graphics\matrix3.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Vector2.hpp>
+	<math.h>
+	<SFML/Graphics/Matrix3.inl>
+
+1308748678 c:\users\julien\desktop\lib\sfml\graphics\matrix3.inl
+
+1308748678 c:\users\julien\desktop\lib\sfml\graphics\renderwindow.hpp
+	<SFML/Graphics/Image.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Window/Window.hpp>
+	<string>
+
+1308748678 c:\users\julien\desktop\lib\sfml\graphics\rendertarget.hpp
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/View.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1308748678 c:\users\julien\desktop\lib\sfml\graphics\view.hpp
+	<SFML/Config.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Matrix3.hpp>
+	<SFML/System/Vector2.hpp>
+
+1308748678 c:\users\julien\desktop\lib\sfml\graphics\shape.hpp
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/System/Vector2.hpp>
+	<vector>
+
+1309547896 c:\users\julien\desktop\lib\sfml\graphics\sprite.hpp
+	<SFML/System/Resource.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1308748678 c:\users\julien\desktop\lib\sfml\graphics\string.hpp
+	<SFML/System/Resource.hpp>
+	<SFML/System/Unicode.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<string>
+
+1314289659 c:\users\julien\desktop\galaxywar\h\gw_tsl.hpp
+	"Typedefs.hpp"
+	"GW_GraphicsDeclarer.hpp"
+
+1312875653 c:\users\julien\desktop\galaxywar\h\gw_arraylist.hpp
+
+1314464645 c:\users\julien\desktop\galaxywar\h\gw_volatileadmin.hpp
+	"../h/GW_Volatile.hpp"
+	"../t/GW_ArrayList.hpp"
+
+1315154410 c:\users\julien\desktop\galaxywar\h\gw_volatile.hpp
+	"GW_Constantes.hpp"
+	"GW_Functions.hpp"
+
+1315713826 c:\users\julien\desktop\galaxywar\h\gw_boomanim.hpp
+	"GW_Volatile.hpp"
+
+1315713826 c:\users\julien\desktop\galaxywar\h\gw_number.hpp
+	"GW_Volatile.hpp"
+	"GW_TSL.hpp"
+
+1311946617 c:\users\julien\desktop\galaxywar\h\gw_squarednode.hpp
+
+1314854229 c:\users\julien\desktop\galaxywar\h\gw_functions.hpp
+	"Typedefs.hpp"
+	"GW_GraphicsDeclarer.hpp"
+
+1313864629 c:\users\julien\desktop\galaxywar\h\gw_keysettings.hpp
+	"Typedefs.hpp"
+
+1314464719 c:\users\julien\desktop\galaxywar\h\gw_palette.hpp
+	"GW_GraphicsDeclarer.hpp"
+	"Typedefs.hpp"
+	<iostream>
+
+1315385700 c:\users\julien\desktop\galaxywar\h\gw_collisionnable.hpp
+	"GW_Constantes.hpp"
+	<cmath>
+	"GW_Functions.hpp"
+	"../t/GW_ArrayList.hpp"
+	"GW_CollisionnableAdmin.hpp"
+
+1315151955 c:\users\julien\desktop\galaxywar\h\gw_tir.hpp
+	"GW_Collisionnable.hpp"
+
+1315059251 c:\users\julien\desktop\galaxywar\h\gw_tir_a.hpp
+	"GW_Tir.hpp"
+
+1315713888 c:\users\julien\desktop\galaxywar\h\gw_tir_kube.hpp
+	"GW_Tir.hpp"
+
+1315713909 c:\users\julien\desktop\galaxywar\h\gw_tir_y.hpp
+	"GW_Tir.hpp"
+
+1315713909 c:\users\julien\desktop\galaxywar\h\gw_tir_z.hpp
+	"GW_Tir.hpp"
+
+1314525330 c:\users\julien\desktop\galaxywar\h\gw_ennemi.hpp
+	"GW_Collisionnable.hpp"
+
+1314992247 c:\users\julien\desktop\galaxywar\h\gw_ennemi_joueur.hpp
+	"GW_Ennemi.hpp"
+
+1315318893 c:\users\julien\desktop\galaxywar\h\gw_ennemi_a.hpp
+	"GW_Ennemi.hpp"
+
+1314524836 c:\users\julien\desktop\galaxywar\h\gw_ennemi_b.hpp
+	"GW_Ennemi.hpp"
+
+1314614733 c:\users\julien\desktop\galaxywar\h\gw_ennemi_c.hpp
+	"GW_Ennemi.hpp"
+
+1315197179 c:\users\julien\desktop\galaxywar\h\gw_ennemi_d.hpp
+	"GW_Ennemi.hpp"
+
+1314524836 c:\users\julien\desktop\galaxywar\h\gw_ennemi_e.hpp
+	"GW_Ennemi.hpp"
+
+1315318893 c:\users\julien\desktop\galaxywar\h\gw_ennemi_f.hpp
+	"GW_Ennemi_E.hpp"
+
+1314528436 c:\users\julien\desktop\galaxywar\h\gw_ennemi_kube.hpp
+	"GW_Ennemi.hpp"
+
+1315197179 c:\users\julien\desktop\galaxywar\h\gw_jeu.hpp
+	"GW_Constantes.hpp"
+	"GW_JeuData.hpp"
+	"GW_GraphicsDeclarer.hpp"
+
+1313943417 c:\users\julien\desktop\galaxywar\h\gw_menu.hpp
+	"GW_Constantes.hpp"
+	"GW_GraphicsDeclarer.hpp"
+	<SFML/Graphics/String.hpp>
+
+1315331777 c:\users\julien\desktop\galaxywar\h\gw_background.hpp
+	"GW_Constantes.hpp"
+	"GW_GraphicsDeclarer.hpp"
+
+1313862502 c:\users\julien\desktop\galaxywar\h\gw_gameset.hpp
+	"GW_Constantes.hpp"
+	"GW_Jeu.hpp"
+	"GW_Menu.hpp"
+	"GW_BackGround.hpp"
+
+1315318068 source:c:\users\julien\desktop\galaxywar\c\gw_boomanim.cpp
+	"../h/GW_GraphicsIncluser.hpp"
+	"../h/GW_BoomAnim.hpp"
+
+1326822820 source:c:\users\julien\desktop\galaxywar\c\gw_collisionnable.cpp
+	<SFML/Graphics/Shape.hpp>
+	"../h/GW_Collisionnable.hpp"
+	"../h/GW_JeuData.hpp"
+
+1314525330 source:c:\users\julien\desktop\galaxywar\c\gw_ennemi.cpp
+	"../h/GW_Ennemi.hpp"
+
+1315319036 source:c:\users\julien\desktop\galaxywar\c\gw_ennemi_a.cpp
+	"../h/GW_Ennemi_A.hpp"
+	"../h/GW_Tir_Z.hpp"
+	"../h/GW_JeuData.hpp"
+	"../h/GW_Joueur.hpp"
+
+1315197179 source:c:\users\julien\desktop\galaxywar\c\gw_ennemi_b.cpp
+	"../h/GW_Ennemi_B.hpp"
+	"../h/GW_Tir_Z.hpp"
+	"../h/GW_JeuData.hpp"
+	"../h/GW_Joueur.hpp"
+
+1314614733 source:c:\users\julien\desktop\galaxywar\c\gw_ennemi_c.cpp
+	"../h/GW_Ennemi_C.hpp"
+	"../h/GW_Tir_Z.hpp"
+	"../h/GW_JeuData.hpp"
+
+1315197179 source:c:\users\julien\desktop\galaxywar\c\gw_ennemi_d.cpp
+	"../h/GW_Ennemi_D.hpp"
+	"../h/GW_Tir.hpp"
+	"../h/GW_JeuData.hpp"
+	"../h/GW_Joueur.hpp"
+
+1315197179 source:c:\users\julien\desktop\galaxywar\c\gw_ennemi_e.cpp
+	"../h/GW_Ennemi_E.hpp"
+	"../h/GW_Tir_Z.hpp"
+	"../h/GW_JeuData.hpp"
+	"../h/GW_Joueur.hpp"
+
+1315318989 source:c:\users\julien\desktop\galaxywar\c\gw_ennemi_f.cpp
+	"../h/GW_Ennemi_F.hpp"
+	"../h/GW_Tir_Z.hpp"
+	"../h/GW_JeuData.hpp"
+	"../h/GW_Joueur.hpp"
+
+1315165334 source:c:\users\julien\desktop\galaxywar\c\gw_ennemi_joueur.cpp
+	"../h/GW_Ennemi_Joueur.hpp"
+	"../h/GW_Tir_A.hpp"
+	"../h/GW_Tir_B.hpp"
+	"../h/GW_Tir_Z.hpp"
+	"../h/GW_BoomAnim.hpp"
+	"../h/GW_VolatileAdmin.hpp"
+	"../h/GW_JeuData.hpp"
+	"../h/GW_KeySettings.hpp"
+
+1315155539 source:c:\users\julien\desktop\galaxywar\c\gw_ennemi_kube.cpp
+	<SFML/Graphics/Color.hpp>
+	<cmath>
+	"../h/GW_Ennemi_Kube.hpp"
+	"../h/GW_Palette.hpp"
+	"../h/GW_Tir_Kube.hpp"
+	"../h/GW_BoomAnim.hpp"
+	"../h/GW_VolatileAdmin.hpp"
+	"../h/GW_JeuData.hpp"
+
+1314854275 source:c:\users\julien\desktop\galaxywar\c\gw_functions.cpp
+	"../h/GW_GraphicsIncluser.hpp"
+	"../h/GW_Functions.hpp"
+	<cstdio>
+
+1313943453 source:c:\users\julien\desktop\galaxywar\c\gw_gameset.cpp
+	"../h/GW_GraphicsIncluser.hpp"
+	"../h/GW_GameSet.hpp"
+	"../h/GW_Menu.hpp"
+	"../h/GW_Jeu.hpp"
+	"../h/GW_BackGround.hpp"
+
+1315197179 source:c:\users\julien\desktop\galaxywar\c\gw_jeu.cpp
+	"../h/GW_GraphicsIncluser.hpp"
+	"../h/GW_GameSet.hpp"
+	"../h/GW_Jeu.hpp"
+	"../h/GW_JeuData.hpp"
+	"../h/GW_Number.hpp"
+	"../h/GW_VolatileAdmin.hpp"
+	"../h/GW_CollisionnableAdmin.hpp"
+	"../h/GW_Tir.hpp"
+	"../h/GW_Joueur.hpp"
+	"../h/GW_Ennemi_G.hpp"
+
+1314466452 source:c:\users\julien\desktop\galaxywar\c\gw_keysettings.cpp
+	"../h/GW_KeySettings.hpp"
+
+1313943469 source:c:\users\julien\desktop\galaxywar\c\gw_menu.cpp
+	"../h/GW_GraphicsIncluser.hpp"
+	"../h/GW_Menu.hpp"
+	"../h/GW_GameSet.hpp"
+
+1314965501 source:c:\users\julien\desktop\galaxywar\c\gw_number.cpp
+	"../h/GW_GraphicsIncluser.hpp"
+	"../h/GW_Number.hpp"
+
+1313943948 source:c:\users\julien\desktop\galaxywar\c\gw_palette.cpp
+	<SFML/Graphics/Color.hpp>
+	"../h/GW_Palette.hpp"
+
+1314541115 source:c:\users\julien\desktop\galaxywar\c\gw_tsl.cpp
+	"../h/GW_TSL.hpp"
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Image.hpp>
+
+1315151589 source:c:\users\julien\desktop\galaxywar\c\gw_tir.cpp
+	"../h/GW_Tir.hpp"
+
+1315148029 source:c:\users\julien\desktop\galaxywar\c\gw_tir_a.cpp
+	"../h/GW_Tir_A.hpp"
+
+1315201446 source:c:\users\julien\desktop\galaxywar\c\gw_tir_kube.cpp
+	<SFML/Graphics/Color.hpp>
+	"../h/GW_Tir_Kube.hpp"
+
+1314524528 source:c:\users\julien\desktop\galaxywar\c\gw_tir_y.cpp
+	"../h/GW_Tir_Y.hpp"
+	"../h/GW_TSL.hpp"
+	"../h/GW_Functions.hpp"
+
+1315147227 source:c:\users\julien\desktop\galaxywar\c\gw_tir_z.cpp
+	"../h/GW_Tir_Z.hpp"
+
+1313848574 source:c:\users\julien\desktop\galaxywar\c\gw_volatile.cpp
+	"../h/GW_Volatile.hpp"
+
+1315154673 source:c:\users\julien\desktop\galaxywar\c\gw_volatileadmin.cpp
+	"../h/GW_VolatileAdmin.hpp"
+	"../h/GW_VolatileIncluser.hpp"
+
+1315629173 source:c:\users\julien\desktop\galaxywar\c\galaxywar.cpp
+	<SFML/System/Clock.hpp>
+	"../h/GW_GraphicsIncluser.hpp"
+	"../h/GW_Constantes.hpp"
+	"../h/GW_GameSet.hpp"
+	"../h/GW_Collisionnable.hpp"
+
+1308990986 source:c:\users\julien\desktop\galaxywar\rc\galaxywar.rc
+
+1315197179 c:\users\julien\desktop\galaxywar\h\gw_jeudata.hpp
+	"../t/GW_ArrayList.hpp"
+
+1315560811 source:c:\users\julien\desktop\galaxywar\c\gw_collisionnableadmin.cpp
+	"../h/GW_GraphicsIncluser.hpp"
+	"../h/GW_CollisionnableAdmin.hpp"
+	"../h/GW_CollisionnableIncluser.hpp"
+	"../h/GW_VolatileAdmin.hpp"
+	"../h/GW_VolatileIncluser.hpp"
+
+1315146042 c:\users\julien\desktop\galaxywar\h\gw_collisionnableadmin.hpp
+	"GW_GraphicsDeclarer.hpp"
+	"GW_Constantes.hpp"
+	"GW_JeuData.hpp"
+
+1315319265 source:c:\users\julien\desktop\galaxywar\c\gw_ennemi_g.cpp
+	"../h/GW_Ennemi_G.hpp"
+	"../h/GW_Tir.hpp"
+
+1315318893 c:\users\julien\desktop\galaxywar\h\gw_ennemi_g.hpp
+	"GW_Ennemi.hpp"
+
+1315328747 source:c:\users\julien\desktop\galaxywar\c\gw_ennemi_h.cpp
+	"../h/GW_Ennemi_H.hpp"
+	"../h/GW_Tir_X.hpp"
+	"../h/GW_JeuData.hpp"
+	"../h/GW_Joueur.hpp"
+	"../h/GW_TSL.hpp"
+
+1315713988 c:\users\julien\desktop\galaxywar\h\gw_ennemi_h.hpp
+	"GW_Ennemi.hpp"
+
+1315150285 source:c:\users\julien\desktop\galaxywar\c\gw_tir_x.cpp
+	"../h/GW_Tir_X.hpp"
+
+1315713888 c:\users\julien\desktop\galaxywar\h\gw_tir_x.hpp
+	"GW_Tir.hpp"
+	<SFML/Graphics/Color.hpp>
+
+1315373011 source:c:\users\julien\desktop\galaxywar\c\gw_ennemi_i.cpp
+	"../h/GW_Ennemi_I.hpp"
+	"../h/GW_Tir_Z.hpp"
+	"../h/GW_JeuData.hpp"
+	"../h/GW_Joueur.hpp"
+	"../h/GW_TSL.hpp"
+
+1315318893 c:\users\julien\desktop\galaxywar\h\gw_ennemi_i.hpp
+	"GW_Ennemi.hpp"
+
+1326918403 source:c:\users\julien\desktop\galaxywar\c\gw_ennemi_j.cpp
+	"../h/GW_Ennemi_J.hpp"
+	"../h/GW_Tir_Z.hpp"
+	"../h/GW_JeuData.hpp"
+	"../h/GW_Joueur.hpp"
+	"../h/GW_TSL.hpp"
+
+1314524836 c:\users\julien\desktop\galaxywar\h\gw_ennemi_j.hpp
+	"GW_Ennemi.hpp"
+
+1314541375 source:c:\users\julien\desktop\galaxywar\c\gw_cryptograph.cpp
+	<cstdlib>
+	"../h/GW_Cryptograph.hpp"
+
+1313855125 c:\users\julien\desktop\galaxywar\h\gw_cryptograph.hpp
+	"Typedefs.hpp"
+
+1314465088 c:\users\julien\desktop\galaxywar\t\gw_arraylist.hpp
+
+1313855305 c:\users\julien\desktop\galaxywar\h\typedefs.hpp
+
+1314278576 c:\users\julien\desktop\galaxywar\h\gw_graphicsincluser.hpp
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Shape.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Window/Event.hpp>
+	<SFML/System/Randomizer.hpp>
+
+1314452073 c:\users\julien\desktop\galaxywar\h\gw_graphicsdeclarer.hpp
+
+1315244519 source:c:\users\julien\desktop\galaxywar\c\gw_collisionnableadmin_getpolygon.cpp
+	<SFML/Graphics/Shape.hpp>
+	"../h/GW_CollisionnableIncluser.hpp"
+
+1315244398 source:c:\users\julien\desktop\galaxywar\c\gw_collisionnableadmin_close.cpp
+	"../h/GW_GraphicsIncluser.hpp"
+	"../h/GW_CollisionnableIncluser.hpp"
+
+1315244425 source:c:\users\julien\desktop\galaxywar\c\gw_collisionnableadmin_draw.cpp
+	"../h/GW_GraphicsIncluser.hpp"
+	"../h/GW_CollisionnableIncluser.hpp"
+	"../h/GW_Palette.hpp"
+
+1315410961 source:c:\users\julien\desktop\galaxywar\c\gw_collisionnableadmin_init.cpp
+	"../h/GW_GraphicsIncluser.hpp"
+	"../h/GW_CollisionnableIncluser.hpp"
+	"../h/GW_TSL.hpp"
+
+1315244331 source:c:\users\julien\desktop\galaxywar\c\gw_collisionnableadmin_dead.cpp
+	"../h/GW_GraphicsIncluser.hpp"
+	"../h/GW_CollisionnableIncluser.hpp"
+	"../h/GW_Palette.hpp"
+	"../h/GW_BoomAnim.hpp"
+	"../h/GW_Number.hpp"
+	"../h/GW_Fleur.hpp"
+	"../h/GW_Bulle.hpp"
+	"../h/GW_VolatileAdmin.hpp"
+
+1315197179 source:c:\users\julien\desktop\galaxywar\c\gw_collisionnableadmin_others.cpp
+	"../h/GW_GraphicsIncluser.hpp"
+	"../h/GW_CollisionnableIncluser.hpp"
+	"../h/GW_KeySettings.hpp"
+
+1315386935 c:\users\julien\desktop\galaxywar\h\gw_collisionnableincluser.hpp
+	"GW_Ennemi_A.hpp"
+	"GW_Ennemi_B.hpp"
+	"GW_Ennemi_C.hpp"
+	"GW_Ennemi_D.hpp"
+	"GW_Ennemi_E.hpp"
+	"GW_Ennemi_F.hpp"
+	"GW_Ennemi_G.hpp"
+	"GW_Ennemi_H.hpp"
+	"GW_Ennemi_I.hpp"
+	"GW_Ennemi_J.hpp"
+	"GW_Ennemi_K.hpp"
+	"GW_Ennemi_L.hpp"
+	"GW_Ennemi_M.hpp"
+	"GW_Joueur.hpp"
+	"GW_Tir_A.hpp"
+	"GW_Tir_B.hpp"
+	"GW_Tir_C.hpp"
+	"GW_Tir_Kube.hpp"
+	"GW_Tir_W.hpp"
+	"GW_Tir_X.hpp"
+	"GW_Tir_Y.hpp"
+	"GW_Tir_Z.hpp"
+
+1314854249 source:c:\users\julien\desktop\galaxywar\c\gw_fleur.cpp
+	"../h/GW_GraphicsIncluser.hpp"
+	"../h/GW_Fleur.hpp"
+	"../h/GW_Collisionnable.hpp"
+
+1315713826 c:\users\julien\desktop\galaxywar\h\gw_fleur.hpp
+	"GW_Volatile.hpp"
+	<SFML/Graphics/Color.hpp>
+
+1314953280 source:c:\users\julien\desktop\galaxywar\c\gw_bulle.cpp
+	"../h/GW_GraphicsIncluser.hpp"
+	"../h/GW_Bulle.hpp"
+	"../h/GW_Ennemi_J.hpp"
+	"../h/GW_TSL.hpp"
+
+1315713826 c:\users\julien\desktop\galaxywar\h\gw_bulle.hpp
+	"GW_Volatile.hpp"
+
+1315121459 source:c:\users\julien\desktop\galaxywar\c\gw_tir_b.cpp
+	"../h/GW_Tir_B.hpp"
+
+1315121420 c:\users\julien\desktop\galaxywar\h\gw_tir_b.hpp
+	"GW_Tir.hpp"
+
+1315148187 source:c:\users\julien\desktop\galaxywar\c\gw_explotir.cpp
+	"../h/GW_GraphicsIncluser.hpp"
+	"../h/GW_ExploTir.hpp"
+	"../h/GW_Collisionnable.hpp"
+
+1315713826 c:\users\julien\desktop\galaxywar\h\gw_explotir.hpp
+	"GW_Volatile.hpp"
+
+1315154578 c:\users\julien\desktop\galaxywar\h\gw_volatileincluser.hpp
+	"GW_BoomAnim.hpp"
+	"GW_Number.hpp"
+	"GW_Fleur.hpp"
+	"GW_Bulle.hpp"
+	"GW_ExploTir.hpp"
+
+1315329400 c:\users\julien\desktop\galaxywar\h\gw_ennemi_k.hpp
+	"GW_Ennemi.hpp"
+
+1315202330 source:c:\users\julien\desktop\galaxywar\c\gw_ennemi_l.cpp
+	"../h/GW_Tir.hpp"
+	"../h/GW_Ennemi_L.hpp"
+	"../h/GW_JeuData.hpp"
+	"../h/GW_Fleur.hpp"
+	"../h/GW_VolatileAdmin.hpp"
+
+1315329731 source:c:\users\julien\desktop\galaxywar\c\gw_ennemi_k.cpp
+	<SFML/Graphics/Color.hpp>
+	<cmath>
+	"../h/GW_Ennemi_K.hpp"
+	"../h/GW_Palette.hpp"
+	"../h/GW_Tir_Kube.hpp"
+	"../h/GW_BoomAnim.hpp"
+	"../h/GW_VolatileAdmin.hpp"
+	"../h/GW_JeuData.hpp"
+
+1315197179 c:\users\julien\desktop\galaxywar\h\gw_joueur.hpp
+	"GW_Ennemi.hpp"
+
+1326916609 source:c:\users\julien\desktop\galaxywar\c\gw_joueur.cpp
+	"../h/GW_Joueur.hpp"
+	"../h/GW_Tir_A.hpp"
+	"../h/GW_Tir_B.hpp"
+	"../h/GW_Tir_C.hpp"
+	"../h/GW_Tir_Z.hpp"
+	"../h/GW_BoomAnim.hpp"
+	"../h/GW_VolatileAdmin.hpp"
+	"../h/GW_JeuData.hpp"
+	"../h/GW_KeySettings.hpp"
+
+1315200563 c:\users\julien\desktop\galaxywar\h\gw_ennemi_l.hpp
+	"GW_Ennemi.hpp"
+
+1315241118 c:\users\julien\desktop\galaxywar\h\gw_tir_c.hpp
+	"GW_Tir.hpp"
+
+1315411304 source:c:\users\julien\desktop\galaxywar\c\gw_tir_c.cpp
+	"../h/GW_Tir_C.hpp"
+
+1326916609 source:c:\users\julien\desktop\galaxywar\c\gw_ennemi_m.cpp
+	"../h/GW_Ennemi_M.hpp"
+	"../h/GW_Tir_W.hpp"
+	"../h/GW_JeuData.hpp"
+	"../h/GW_Joueur.hpp"
+	"../h/GW_TSL.hpp"
+	"../h/GW_GraphicsIncluser.hpp"
+	"../h/GW_BoomAnim.hpp"
+	"../h/GW_VolatileAdmin.hpp"
+
+1315713694 c:\users\julien\desktop\galaxywar\h\gw_ennemi_m.hpp
+	"GW_Ennemi.hpp"
+
+1326822912 source:c:\users\julien\desktop\galaxywar\c\gw_tir_w.cpp
+	"../h/GW_Tir_W.hpp"
+	"../h/GW_GraphicsIncluser.hpp"
+
+1315386974 c:\users\julien\desktop\galaxywar\h\gw_tir_w.hpp
+	"GW_Tir.hpp"
+
+1461074964 source:c:\users\julien\_c\++\galaxywar\c\gw_background.cpp
+	"../h/GW_GraphicsIncluser.hpp"
+	"../h/GW_BackGround.hpp"
+	"../h/GW_Functions.hpp"
+
+1314282176 c:\users\julien\_c\++\galaxywar\h\gw_graphicsincluser.hpp
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Shape.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Window/Event.hpp>
+	<SFML/System/Randomizer.hpp>
+
+1308752278 c:\users\julien\_c\++\lib\sfml\graphics\renderwindow.hpp
+	<SFML/Graphics/Image.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Window/Window.hpp>
+	<string>
+
+1308752278 c:\users\julien\_c\++\lib\sfml\graphics\image.hpp
+	<SFML/System/Resource.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<string>
+	<vector>
+
+1308752280 c:\users\julien\_c\++\lib\sfml\system\resource.hpp
+	<set>
+	<SFML/System/Resource.inl>
+	<SFML/System/ResourcePtr.inl>
+
+1308752280 c:\users\julien\_c\++\lib\sfml\system\resource.inl
+
+1308752280 c:\users\julien\_c\++\lib\sfml\system\resourceptr.inl
+
+1308752278 c:\users\julien\_c\++\lib\sfml\graphics\color.hpp
+	<SFML/Config.hpp>
+
+1308752278 c:\users\julien\_c\++\lib\sfml\config.hpp
+	<climits>
+
+1308752278 c:\users\julien\_c\++\lib\sfml\graphics\rect.hpp
+	<algorithm>
+	<SFML/Graphics/Rect.inl>
+
+1308752278 c:\users\julien\_c\++\lib\sfml\graphics\rect.inl
+
+1308752278 c:\users\julien\_c\++\lib\sfml\graphics\rendertarget.hpp
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/View.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1308752278 c:\users\julien\_c\++\lib\sfml\graphics\view.hpp
+	<SFML/Config.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Matrix3.hpp>
+	<SFML/System/Vector2.hpp>
+
+1308752278 c:\users\julien\_c\++\lib\sfml\graphics\matrix3.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Vector2.hpp>
+	<math.h>
+	<SFML/Graphics/Matrix3.inl>
+
+1308752280 c:\users\julien\_c\++\lib\sfml\system\vector2.hpp
+	<SFML/System/Vector2.inl>
+
+1308752280 c:\users\julien\_c\++\lib\sfml\system\vector2.inl
+
+1308752278 c:\users\julien\_c\++\lib\sfml\graphics\matrix3.inl
+
+1308752280 c:\users\julien\_c\++\lib\sfml\window\window.hpp
+	<SFML/Window/Event.hpp>
+	<SFML/Window/Input.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/WindowHandle.hpp>
+	<SFML/Window/WindowListener.hpp>
+	<SFML/Window/WindowSettings.hpp>
+	<SFML/Window/WindowStyle.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<queue>
+	<string>
+
+1308752280 c:\users\julien\_c\++\lib\sfml\window\event.hpp
+	<SFML/Config.hpp>
+
+1308752280 c:\users\julien\_c\++\lib\sfml\window\input.hpp
+	<SFML/Config.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/Window/Event.hpp>
+	<SFML/Window/WindowListener.hpp>
+
+1308752280 c:\users\julien\_c\++\lib\sfml\system\noncopyable.hpp
+	<SFML/Config.hpp>
+
+1308752280 c:\users\julien\_c\++\lib\sfml\window\windowlistener.hpp
+	<SFML/Config.hpp>
+
+1308752280 c:\users\julien\_c\++\lib\sfml\window\videomode.hpp
+	<SFML/Config.hpp>
+	<cstdlib>
+
+1308752280 c:\users\julien\_c\++\lib\sfml\window\windowhandle.hpp
+	<SFML/Config.hpp>
+
+1308752280 c:\users\julien\_c\++\lib\sfml\window\windowsettings.hpp
+
+1308752280 c:\users\julien\_c\++\lib\sfml\window\windowstyle.hpp
+
+1308752278 c:\users\julien\_c\++\lib\sfml\system\clock.hpp
+	<SFML/Config.hpp>
+
+1309551496 c:\users\julien\_c\++\lib\sfml\graphics\sprite.hpp
+	<SFML/System/Resource.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1309185220 c:\users\julien\_c\++\lib\sfml\graphics\drawable.hpp
+	<SFML/System/Vector2.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Matrix3.hpp>
+
+1308752278 c:\users\julien\_c\++\lib\sfml\graphics\shape.hpp
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/System/Vector2.hpp>
+	<vector>
+
+1308752280 c:\users\julien\_c\++\lib\sfml\system\randomizer.hpp
+	<SFML/Config.hpp>
+
+1461074946 c:\users\julien\_c\++\galaxywar\h\gw_background.hpp
+	"GW_Constantes.hpp"
+	"GW_GraphicsDeclarer.hpp"
+
+1315338097 c:\users\julien\_c\++\galaxywar\h\gw_constantes.hpp
+	<cstdlib>
+	<cstdio>
+	"Typedefs.hpp"
+
+1313858905 c:\users\julien\_c\++\galaxywar\h\typedefs.hpp
+
+1314455673 c:\users\julien\_c\++\galaxywar\h\gw_graphicsdeclarer.hpp
+
+1314857829 c:\users\julien\_c\++\galaxywar\h\gw_functions.hpp
+	"Typedefs.hpp"
+	"GW_GraphicsDeclarer.hpp"
+
+1315321668 source:c:\users\julien\_c\++\galaxywar\c\gw_boomanim.cpp
+	"../h/GW_GraphicsIncluser.hpp"
+	"../h/GW_BoomAnim.hpp"
+
+1315717426 c:\users\julien\_c\++\galaxywar\h\gw_boomanim.hpp
+	"GW_Volatile.hpp"
+
+1315158010 c:\users\julien\_c\++\galaxywar\h\gw_volatile.hpp
+	"GW_Constantes.hpp"
+	"GW_Functions.hpp"
+
+1314956880 source:c:\users\julien\_c\++\galaxywar\c\gw_bulle.cpp
+	"../h/GW_GraphicsIncluser.hpp"
+	"../h/GW_Bulle.hpp"
+	"../h/GW_Ennemi_J.hpp"
+	"../h/GW_TSL.hpp"
+
+1315717426 c:\users\julien\_c\++\galaxywar\h\gw_bulle.hpp
+	"GW_Volatile.hpp"
+
+1314528436 c:\users\julien\_c\++\galaxywar\h\gw_ennemi_j.hpp
+	"GW_Ennemi.hpp"
+
+1314528930 c:\users\julien\_c\++\galaxywar\h\gw_ennemi.hpp
+	"GW_Collisionnable.hpp"
+
+1315389300 c:\users\julien\_c\++\galaxywar\h\gw_collisionnable.hpp
+	"GW_Constantes.hpp"
+	<cmath>
+	"GW_Functions.hpp"
+	"../t/GW_ArrayList.hpp"
+	"GW_CollisionnableAdmin.hpp"
+
+1314468688 c:\users\julien\_c\++\galaxywar\t\gw_arraylist.hpp
+
+1315149642 c:\users\julien\_c\++\galaxywar\h\gw_collisionnableadmin.hpp
+	"GW_GraphicsDeclarer.hpp"
+	"GW_Constantes.hpp"
+	"GW_JeuData.hpp"
+
+1315200779 c:\users\julien\_c\++\galaxywar\h\gw_jeudata.hpp
+	"../t/GW_ArrayList.hpp"
+
+1314293259 c:\users\julien\_c\++\galaxywar\h\gw_tsl.hpp
+	"Typedefs.hpp"
+	"GW_GraphicsDeclarer.hpp"
+
+1357484607 source:c:\users\julien\_c\++\galaxywar\c\gw_collisionnable.cpp
+	<SFML/Graphics/Shape.hpp>
+	"../h/GW_Collisionnable.hpp"
+	"../h/GW_JeuData.hpp"
+
+1315564411 source:c:\users\julien\_c\++\galaxywar\c\gw_collisionnableadmin.cpp
+	"../h/GW_GraphicsIncluser.hpp"
+	"../h/GW_CollisionnableAdmin.hpp"
+	"../h/GW_CollisionnableIncluser.hpp"
+	"../h/GW_VolatileAdmin.hpp"
+	"../h/GW_VolatileIncluser.hpp"
+
+1315390535 c:\users\julien\_c\++\galaxywar\h\gw_collisionnableincluser.hpp
+	"GW_Ennemi_A.hpp"
+	"GW_Ennemi_B.hpp"
+	"GW_Ennemi_C.hpp"
+	"GW_Ennemi_D.hpp"
+	"GW_Ennemi_E.hpp"
+	"GW_Ennemi_F.hpp"
+	"GW_Ennemi_G.hpp"
+	"GW_Ennemi_H.hpp"
+	"GW_Ennemi_I.hpp"
+	"GW_Ennemi_J.hpp"
+	"GW_Ennemi_K.hpp"
+	"GW_Ennemi_L.hpp"
+	"GW_Ennemi_M.hpp"
+	"GW_Joueur.hpp"
+	"GW_Tir_A.hpp"
+	"GW_Tir_B.hpp"
+	"GW_Tir_C.hpp"
+	"GW_Tir_Kube.hpp"
+	"GW_Tir_W.hpp"
+	"GW_Tir_X.hpp"
+	"GW_Tir_Y.hpp"
+	"GW_Tir_Z.hpp"
+
+1315322493 c:\users\julien\_c\++\galaxywar\h\gw_ennemi_a.hpp
+	"GW_Ennemi.hpp"
+
+1314528436 c:\users\julien\_c\++\galaxywar\h\gw_ennemi_b.hpp
+	"GW_Ennemi.hpp"
+
+1314618333 c:\users\julien\_c\++\galaxywar\h\gw_ennemi_c.hpp
+	"GW_Ennemi.hpp"
+
+1315200779 c:\users\julien\_c\++\galaxywar\h\gw_ennemi_d.hpp
+	"GW_Ennemi.hpp"
+
+1314528436 c:\users\julien\_c\++\galaxywar\h\gw_ennemi_e.hpp
+	"GW_Ennemi.hpp"
+
+1315322493 c:\users\julien\_c\++\galaxywar\h\gw_ennemi_f.hpp
+	"GW_Ennemi_E.hpp"
+
+1315322493 c:\users\julien\_c\++\galaxywar\h\gw_ennemi_g.hpp
+	"GW_Ennemi.hpp"
+
+1315717588 c:\users\julien\_c\++\galaxywar\h\gw_ennemi_h.hpp
+	"GW_Ennemi.hpp"
+
+1315322493 c:\users\julien\_c\++\galaxywar\h\gw_ennemi_i.hpp
+	"GW_Ennemi.hpp"
+
+1315333000 c:\users\julien\_c\++\galaxywar\h\gw_ennemi_k.hpp
+	"GW_Ennemi.hpp"
+
+1315204163 c:\users\julien\_c\++\galaxywar\h\gw_ennemi_l.hpp
+	"GW_Ennemi.hpp"
+
+1315717294 c:\users\julien\_c\++\galaxywar\h\gw_ennemi_m.hpp
+	"GW_Ennemi.hpp"
+
+1315200779 c:\users\julien\_c\++\galaxywar\h\gw_joueur.hpp
+	"GW_Ennemi.hpp"
+
+1315062851 c:\users\julien\_c\++\galaxywar\h\gw_tir_a.hpp
+	"GW_Tir.hpp"
+
+1315155555 c:\users\julien\_c\++\galaxywar\h\gw_tir.hpp
+	"GW_Collisionnable.hpp"
+
+1315125020 c:\users\julien\_c\++\galaxywar\h\gw_tir_b.hpp
+	"GW_Tir.hpp"
+
+1315244718 c:\users\julien\_c\++\galaxywar\h\gw_tir_c.hpp
+	"GW_Tir.hpp"
+
+1315717488 c:\users\julien\_c\++\galaxywar\h\gw_tir_kube.hpp
+	"GW_Tir.hpp"
+
+1315390574 c:\users\julien\_c\++\galaxywar\h\gw_tir_w.hpp
+	"GW_Tir.hpp"
+
+1315717488 c:\users\julien\_c\++\galaxywar\h\gw_tir_x.hpp
+	"GW_Tir.hpp"
+	<SFML/Graphics/Color.hpp>
+
+1315717509 c:\users\julien\_c\++\galaxywar\h\gw_tir_y.hpp
+	"GW_Tir.hpp"
+
+1315717509 c:\users\julien\_c\++\galaxywar\h\gw_tir_z.hpp
+	"GW_Tir.hpp"
+
+1314468245 c:\users\julien\_c\++\galaxywar\h\gw_volatileadmin.hpp
+	"../h/GW_Volatile.hpp"
+	"../t/GW_ArrayList.hpp"
+
+1315158178 c:\users\julien\_c\++\galaxywar\h\gw_volatileincluser.hpp
+	"GW_BoomAnim.hpp"
+	"GW_Number.hpp"
+	"GW_Fleur.hpp"
+	"GW_Bulle.hpp"
+	"GW_ExploTir.hpp"
+
+1315717426 c:\users\julien\_c\++\galaxywar\h\gw_number.hpp
+	"GW_Volatile.hpp"
+	"GW_TSL.hpp"
+
+1315717426 c:\users\julien\_c\++\galaxywar\h\gw_fleur.hpp
+	"GW_Volatile.hpp"
+	<SFML/Graphics/Color.hpp>
+
+1315717426 c:\users\julien\_c\++\galaxywar\h\gw_explotir.hpp
+	"GW_Volatile.hpp"
+
+1315247998 source:c:\users\julien\_c\++\galaxywar\c\gw_collisionnableadmin_close.cpp
+	"../h/GW_GraphicsIncluser.hpp"
+	"../h/GW_CollisionnableIncluser.hpp"
+
+1315247931 source:c:\users\julien\_c\++\galaxywar\c\gw_collisionnableadmin_dead.cpp
+	"../h/GW_GraphicsIncluser.hpp"
+	"../h/GW_CollisionnableIncluser.hpp"
+	"../h/GW_Palette.hpp"
+	"../h/GW_BoomAnim.hpp"
+	"../h/GW_Number.hpp"
+	"../h/GW_Fleur.hpp"
+	"../h/GW_Bulle.hpp"
+	"../h/GW_VolatileAdmin.hpp"
+
+1314468319 c:\users\julien\_c\++\galaxywar\h\gw_palette.hpp
+	"GW_GraphicsDeclarer.hpp"
+	"Typedefs.hpp"
+	<iostream>
+
+1315248025 source:c:\users\julien\_c\++\galaxywar\c\gw_collisionnableadmin_draw.cpp
+	"../h/GW_GraphicsIncluser.hpp"
+	"../h/GW_CollisionnableIncluser.hpp"
+	"../h/GW_Palette.hpp"
+
+1315248119 source:c:\users\julien\_c\++\galaxywar\c\gw_collisionnableadmin_getpolygon.cpp
+	<SFML/Graphics/Shape.hpp>
+	"../h/GW_CollisionnableIncluser.hpp"
+
+1315414561 source:c:\users\julien\_c\++\galaxywar\c\gw_collisionnableadmin_init.cpp
+	"../h/GW_GraphicsIncluser.hpp"
+	"../h/GW_CollisionnableIncluser.hpp"
+	"../h/GW_TSL.hpp"
+
+1315200779 source:c:\users\julien\_c\++\galaxywar\c\gw_collisionnableadmin_others.cpp
+	"../h/GW_GraphicsIncluser.hpp"
+	"../h/GW_CollisionnableIncluser.hpp"
+	"../h/GW_KeySettings.hpp"
+
+1313868229 c:\users\julien\_c\++\galaxywar\h\gw_keysettings.hpp
+	"Typedefs.hpp"
+
+1314544975 source:c:\users\julien\_c\++\galaxywar\c\gw_cryptograph.cpp
+	<cstdlib>
+	"../h/GW_Cryptograph.hpp"
+
+1313858725 c:\users\julien\_c\++\galaxywar\h\gw_cryptograph.hpp
+	"Typedefs.hpp"
+
+1314528930 source:c:\users\julien\_c\++\galaxywar\c\gw_ennemi.cpp
+	"../h/GW_Ennemi.hpp"
+
+1315322636 source:c:\users\julien\_c\++\galaxywar\c\gw_ennemi_a.cpp
+	"../h/GW_Ennemi_A.hpp"
+	"../h/GW_Tir_Z.hpp"
+	"../h/GW_JeuData.hpp"
+	"../h/GW_Joueur.hpp"
+
+1315200779 source:c:\users\julien\_c\++\galaxywar\c\gw_ennemi_b.cpp
+	"../h/GW_Ennemi_B.hpp"
+	"../h/GW_Tir_Z.hpp"
+	"../h/GW_JeuData.hpp"
+	"../h/GW_Joueur.hpp"
+
+1314618333 source:c:\users\julien\_c\++\galaxywar\c\gw_ennemi_c.cpp
+	"../h/GW_Ennemi_C.hpp"
+	"../h/GW_Tir_Z.hpp"
+	"../h/GW_JeuData.hpp"
+
+1315200779 source:c:\users\julien\_c\++\galaxywar\c\gw_ennemi_d.cpp
+	"../h/GW_Ennemi_D.hpp"
+	"../h/GW_Tir.hpp"
+	"../h/GW_JeuData.hpp"
+	"../h/GW_Joueur.hpp"
+
+1315200779 source:c:\users\julien\_c\++\galaxywar\c\gw_ennemi_e.cpp
+	"../h/GW_Ennemi_E.hpp"
+	"../h/GW_Tir_Z.hpp"
+	"../h/GW_JeuData.hpp"
+	"../h/GW_Joueur.hpp"
+
+1315322589 source:c:\users\julien\_c\++\galaxywar\c\gw_ennemi_f.cpp
+	"../h/GW_Ennemi_F.hpp"
+	"../h/GW_Tir_Z.hpp"
+	"../h/GW_JeuData.hpp"
+	"../h/GW_Joueur.hpp"
+
+1315322865 source:c:\users\julien\_c\++\galaxywar\c\gw_ennemi_g.cpp
+	"../h/GW_Ennemi_G.hpp"
+	"../h/GW_Tir.hpp"
+
+1315332347 source:c:\users\julien\_c\++\galaxywar\c\gw_ennemi_h.cpp
+	"../h/GW_Ennemi_H.hpp"
+	"../h/GW_Tir_X.hpp"
+	"../h/GW_JeuData.hpp"
+	"../h/GW_Joueur.hpp"
+	"../h/GW_TSL.hpp"
+
+1315376611 source:c:\users\julien\_c\++\galaxywar\c\gw_ennemi_i.cpp
+	"../h/GW_Ennemi_I.hpp"
+	"../h/GW_Tir_Z.hpp"
+	"../h/GW_JeuData.hpp"
+	"../h/GW_Joueur.hpp"
+	"../h/GW_TSL.hpp"
+
+1326922003 source:c:\users\julien\_c\++\galaxywar\c\gw_ennemi_j.cpp
+	"../h/GW_Ennemi_J.hpp"
+	"../h/GW_Tir_Z.hpp"
+	"../h/GW_JeuData.hpp"
+	"../h/GW_Joueur.hpp"
+	"../h/GW_TSL.hpp"
+
+1315333331 source:c:\users\julien\_c\++\galaxywar\c\gw_ennemi_k.cpp
+	<SFML/Graphics/Color.hpp>
+	<cmath>
+	"../h/GW_Ennemi_K.hpp"
+	"../h/GW_Palette.hpp"
+	"../h/GW_Tir_Kube.hpp"
+	"../h/GW_BoomAnim.hpp"
+	"../h/GW_VolatileAdmin.hpp"
+	"../h/GW_JeuData.hpp"
+
+1315205930 source:c:\users\julien\_c\++\galaxywar\c\gw_ennemi_l.cpp
+	"../h/GW_Tir.hpp"
+	"../h/GW_Ennemi_L.hpp"
+	"../h/GW_JeuData.hpp"
+	"../h/GW_Fleur.hpp"
+	"../h/GW_VolatileAdmin.hpp"
+
+1326920209 source:c:\users\julien\_c\++\galaxywar\c\gw_ennemi_m.cpp
+	"../h/GW_Ennemi_M.hpp"
+	"../h/GW_Tir_W.hpp"
+	"../h/GW_JeuData.hpp"
+	"../h/GW_Joueur.hpp"
+	"../h/GW_TSL.hpp"
+	"../h/GW_GraphicsIncluser.hpp"
+	"../h/GW_BoomAnim.hpp"
+	"../h/GW_VolatileAdmin.hpp"
+
+1315151787 source:c:\users\julien\_c\++\galaxywar\c\gw_explotir.cpp
+	"../h/GW_GraphicsIncluser.hpp"
+	"../h/GW_ExploTir.hpp"
+	"../h/GW_Collisionnable.hpp"
+
+1314857849 source:c:\users\julien\_c\++\galaxywar\c\gw_fleur.cpp
+	"../h/GW_GraphicsIncluser.hpp"
+	"../h/GW_Fleur.hpp"
+	"../h/GW_Collisionnable.hpp"
+
+1314857875 source:c:\users\julien\_c\++\galaxywar\c\gw_functions.cpp
+	"../h/GW_GraphicsIncluser.hpp"
+	"../h/GW_Functions.hpp"
+	<cstdio>
+
+1313947053 source:c:\users\julien\_c\++\galaxywar\c\gw_gameset.cpp
+	"../h/GW_GraphicsIncluser.hpp"
+	"../h/GW_GameSet.hpp"
+	"../h/GW_Menu.hpp"
+	"../h/GW_Jeu.hpp"
+	"../h/GW_BackGround.hpp"
+
+1313866102 c:\users\julien\_c\++\galaxywar\h\gw_gameset.hpp
+	"GW_Constantes.hpp"
+	"GW_Jeu.hpp"
+	"GW_Menu.hpp"
+	"GW_BackGround.hpp"
+
+1315200779 c:\users\julien\_c\++\galaxywar\h\gw_jeu.hpp
+	"GW_Constantes.hpp"
+	"GW_JeuData.hpp"
+	"GW_GraphicsDeclarer.hpp"
+
+1313947017 c:\users\julien\_c\++\galaxywar\h\gw_menu.hpp
+	"GW_Constantes.hpp"
+	"GW_GraphicsDeclarer.hpp"
+	<SFML/Graphics/String.hpp>
+
+1308752278 c:\users\julien\_c\++\lib\sfml\graphics\string.hpp
+	<SFML/System/Resource.hpp>
+	<SFML/System/Unicode.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<string>
+
+1308752280 c:\users\julien\_c\++\lib\sfml\system\unicode.hpp
+	<SFML/Config.hpp>
+	<iterator>
+	<locale>
+	<string>
+	<stdlib.h>
+	<SFML/System/Unicode.inl>
+
+1308752280 c:\users\julien\_c\++\lib\sfml\system\unicode.inl
+
+1308752278 c:\users\julien\_c\++\lib\sfml\graphics\font.hpp
+	<SFML/System/Resource.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Unicode.hpp>
+	<SFML/Graphics/Glyph.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<map>
+	<string>
+
+1308752278 c:\users\julien\_c\++\lib\sfml\graphics\glyph.hpp
+	<SFML/Config.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1315200779 source:c:\users\julien\_c\++\galaxywar\c\gw_jeu.cpp
+	"../h/GW_GraphicsIncluser.hpp"
+	"../h/GW_GameSet.hpp"
+	"../h/GW_Jeu.hpp"
+	"../h/GW_JeuData.hpp"
+	"../h/GW_Number.hpp"
+	"../h/GW_VolatileAdmin.hpp"
+	"../h/GW_CollisionnableAdmin.hpp"
+	"../h/GW_Tir.hpp"
+	"../h/GW_Joueur.hpp"
+	"../h/GW_Ennemi_G.hpp"
+
+1326920209 source:c:\users\julien\_c\++\galaxywar\c\gw_joueur.cpp
+	"../h/GW_Joueur.hpp"
+	"../h/GW_Tir_A.hpp"
+	"../h/GW_Tir_B.hpp"
+	"../h/GW_Tir_C.hpp"
+	"../h/GW_Tir_Z.hpp"
+	"../h/GW_BoomAnim.hpp"
+	"../h/GW_VolatileAdmin.hpp"
+	"../h/GW_JeuData.hpp"
+	"../h/GW_KeySettings.hpp"
+
+1314470052 source:c:\users\julien\_c\++\galaxywar\c\gw_keysettings.cpp
+	"../h/GW_KeySettings.hpp"
+
+1313947069 source:c:\users\julien\_c\++\galaxywar\c\gw_menu.cpp
+	"../h/GW_GraphicsIncluser.hpp"
+	"../h/GW_Menu.hpp"
+	"../h/GW_GameSet.hpp"
+
+1314969101 source:c:\users\julien\_c\++\galaxywar\c\gw_number.cpp
+	"../h/GW_GraphicsIncluser.hpp"
+	"../h/GW_Number.hpp"
+
+1313947548 source:c:\users\julien\_c\++\galaxywar\c\gw_palette.cpp
+	<SFML/Graphics/Color.hpp>
+	"../h/GW_Palette.hpp"
+
+1314544715 source:c:\users\julien\_c\++\galaxywar\c\gw_tsl.cpp
+	"../h/GW_TSL.hpp"
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Image.hpp>
+
+1315155189 source:c:\users\julien\_c\++\galaxywar\c\gw_tir.cpp
+	"../h/GW_Tir.hpp"
+
+1315151629 source:c:\users\julien\_c\++\galaxywar\c\gw_tir_a.cpp
+	"../h/GW_Tir_A.hpp"
+
+1315125059 source:c:\users\julien\_c\++\galaxywar\c\gw_tir_b.cpp
+	"../h/GW_Tir_B.hpp"
+
+1315414904 source:c:\users\julien\_c\++\galaxywar\c\gw_tir_c.cpp
+	"../h/GW_Tir_C.hpp"
+
+1315205046 source:c:\users\julien\_c\++\galaxywar\c\gw_tir_kube.cpp
+	<SFML/Graphics/Color.hpp>
+	"../h/GW_Tir_Kube.hpp"
+
+1326826512 source:c:\users\julien\_c\++\galaxywar\c\gw_tir_w.cpp
+	"../h/GW_Tir_W.hpp"
+	"../h/GW_GraphicsIncluser.hpp"
+
+1315153885 source:c:\users\julien\_c\++\galaxywar\c\gw_tir_x.cpp
+	"../h/GW_Tir_X.hpp"
+
+1314528128 source:c:\users\julien\_c\++\galaxywar\c\gw_tir_y.cpp
+	"../h/GW_Tir_Y.hpp"
+	"../h/GW_TSL.hpp"
+	"../h/GW_Functions.hpp"
+
+1315150827 source:c:\users\julien\_c\++\galaxywar\c\gw_tir_z.cpp
+	"../h/GW_Tir_Z.hpp"
+
+1313852174 source:c:\users\julien\_c\++\galaxywar\c\gw_volatile.cpp
+	"../h/GW_Volatile.hpp"
+
+1315158273 source:c:\users\julien\_c\++\galaxywar\c\gw_volatileadmin.cpp
+	"../h/GW_VolatileAdmin.hpp"
+	"../h/GW_VolatileIncluser.hpp"
+
+1468066890 source:c:\users\julien\_c\++\galaxywar\c\galaxywar.cpp
+	<SFML/System/Clock.hpp>
+	"../h/GW_GraphicsIncluser.hpp"
+	"../h/GW_Constantes.hpp"
+	"../h/GW_GameSet.hpp"
+	"../h/GW_Collisionnable.hpp"
+
+1308994586 source:c:\users\julien\_c\++\galaxywar\rc\galaxywar.rc
+
+1461074964 source:c:\users\julien\_c\++\t\galaxywar\c\gw_background.cpp
+	"../h/GW_GraphicsIncluser.hpp"
+	"../h/GW_BackGround.hpp"
+	"../h/GW_Functions.hpp"
+
+1314282176 c:\users\julien\_c\++\t\galaxywar\h\gw_graphicsincluser.hpp
+	<SFML/Graphics/RenderWindow.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Sprite.hpp>
+	<SFML/Graphics/Shape.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Window/Event.hpp>
+	<SFML/System/Randomizer.hpp>
+
+1308752278 c:\users\julien\_c\++\t\lib\sfml\graphics\renderwindow.hpp
+	<SFML/Graphics/Image.hpp>
+	<SFML/Graphics/RenderTarget.hpp>
+	<SFML/Window/Window.hpp>
+	<string>
+
+1308752278 c:\users\julien\_c\++\t\lib\sfml\graphics\image.hpp
+	<SFML/System/Resource.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<string>
+	<vector>
+
+1308752280 c:\users\julien\_c\++\t\lib\sfml\system\resource.hpp
+	<set>
+	<SFML/System/Resource.inl>
+	<SFML/System/ResourcePtr.inl>
+
+1308752280 c:\users\julien\_c\++\t\lib\sfml\system\resource.inl
+
+1308752280 c:\users\julien\_c\++\t\lib\sfml\system\resourceptr.inl
+
+1308752278 c:\users\julien\_c\++\t\lib\sfml\graphics\color.hpp
+	<SFML/Config.hpp>
+
+1308752278 c:\users\julien\_c\++\t\lib\sfml\config.hpp
+	<climits>
+
+1308752278 c:\users\julien\_c\++\t\lib\sfml\graphics\rect.hpp
+	<algorithm>
+	<SFML/Graphics/Rect.inl>
+
+1308752278 c:\users\julien\_c\++\t\lib\sfml\graphics\rect.inl
+
+1308752278 c:\users\julien\_c\++\t\lib\sfml\graphics\rendertarget.hpp
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/View.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1308752278 c:\users\julien\_c\++\t\lib\sfml\graphics\view.hpp
+	<SFML/Config.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<SFML/Graphics/Matrix3.hpp>
+	<SFML/System/Vector2.hpp>
+
+1308752278 c:\users\julien\_c\++\t\lib\sfml\graphics\matrix3.hpp
+	<SFML/Config.hpp>
+	<SFML/System/Vector2.hpp>
+	<math.h>
+	<SFML/Graphics/Matrix3.inl>
+
+1308752280 c:\users\julien\_c\++\t\lib\sfml\system\vector2.hpp
+	<SFML/System/Vector2.inl>
+
+1308752280 c:\users\julien\_c\++\t\lib\sfml\system\vector2.inl
+
+1308752278 c:\users\julien\_c\++\t\lib\sfml\graphics\matrix3.inl
+
+1308752280 c:\users\julien\_c\++\t\lib\sfml\window\window.hpp
+	<SFML/Window/Event.hpp>
+	<SFML/Window/Input.hpp>
+	<SFML/Window/VideoMode.hpp>
+	<SFML/Window/WindowHandle.hpp>
+	<SFML/Window/WindowListener.hpp>
+	<SFML/Window/WindowSettings.hpp>
+	<SFML/Window/WindowStyle.hpp>
+	<SFML/System/Clock.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<queue>
+	<string>
+
+1308752280 c:\users\julien\_c\++\t\lib\sfml\window\event.hpp
+	<SFML/Config.hpp>
+
+1308752280 c:\users\julien\_c\++\t\lib\sfml\window\input.hpp
+	<SFML/Config.hpp>
+	<SFML/System/NonCopyable.hpp>
+	<SFML/Window/Event.hpp>
+	<SFML/Window/WindowListener.hpp>
+
+1308752280 c:\users\julien\_c\++\t\lib\sfml\system\noncopyable.hpp
+	<SFML/Config.hpp>
+
+1308752280 c:\users\julien\_c\++\t\lib\sfml\window\windowlistener.hpp
+	<SFML/Config.hpp>
+
+1308752280 c:\users\julien\_c\++\t\lib\sfml\window\videomode.hpp
+	<SFML/Config.hpp>
+	<cstdlib>
+
+1308752280 c:\users\julien\_c\++\t\lib\sfml\window\windowhandle.hpp
+	<SFML/Config.hpp>
+
+1308752280 c:\users\julien\_c\++\t\lib\sfml\window\windowsettings.hpp
+
+1308752280 c:\users\julien\_c\++\t\lib\sfml\window\windowstyle.hpp
+
+1308752278 c:\users\julien\_c\++\t\lib\sfml\system\clock.hpp
+	<SFML/Config.hpp>
+
+1309551496 c:\users\julien\_c\++\t\lib\sfml\graphics\sprite.hpp
+	<SFML/System/Resource.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1309185220 c:\users\julien\_c\++\t\lib\sfml\graphics\drawable.hpp
+	<SFML/System/Vector2.hpp>
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Matrix3.hpp>
+
+1308752278 c:\users\julien\_c\++\t\lib\sfml\graphics\shape.hpp
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/System/Vector2.hpp>
+	<vector>
+
+1308752280 c:\users\julien\_c\++\t\lib\sfml\system\randomizer.hpp
+	<SFML/Config.hpp>
+
+1461074946 c:\users\julien\_c\++\t\galaxywar\h\gw_background.hpp
+	"GW_Constantes.hpp"
+	"GW_GraphicsDeclarer.hpp"
+
+1315338097 c:\users\julien\_c\++\t\galaxywar\h\gw_constantes.hpp
+	<cstdlib>
+	<cstdio>
+	"Typedefs.hpp"
+
+1313858905 c:\users\julien\_c\++\t\galaxywar\h\typedefs.hpp
+
+1314455673 c:\users\julien\_c\++\t\galaxywar\h\gw_graphicsdeclarer.hpp
+
+1314857829 c:\users\julien\_c\++\t\galaxywar\h\gw_functions.hpp
+	"Typedefs.hpp"
+	"GW_GraphicsDeclarer.hpp"
+
+1315321668 source:c:\users\julien\_c\++\t\galaxywar\c\gw_boomanim.cpp
+	"../h/GW_GraphicsIncluser.hpp"
+	"../h/GW_BoomAnim.hpp"
+
+1315717426 c:\users\julien\_c\++\t\galaxywar\h\gw_boomanim.hpp
+	"GW_Volatile.hpp"
+
+1315158010 c:\users\julien\_c\++\t\galaxywar\h\gw_volatile.hpp
+	"GW_Constantes.hpp"
+	"GW_Functions.hpp"
+
+1314956880 source:c:\users\julien\_c\++\t\galaxywar\c\gw_bulle.cpp
+	"../h/GW_GraphicsIncluser.hpp"
+	"../h/GW_Bulle.hpp"
+	"../h/GW_Ennemi_J.hpp"
+	"../h/GW_TSL.hpp"
+
+1315717426 c:\users\julien\_c\++\t\galaxywar\h\gw_bulle.hpp
+	"GW_Volatile.hpp"
+
+1314528436 c:\users\julien\_c\++\t\galaxywar\h\gw_ennemi_j.hpp
+	"GW_Ennemi.hpp"
+
+1314528930 c:\users\julien\_c\++\t\galaxywar\h\gw_ennemi.hpp
+	"GW_Collisionnable.hpp"
+
+1315389300 c:\users\julien\_c\++\t\galaxywar\h\gw_collisionnable.hpp
+	"GW_Constantes.hpp"
+	<cmath>
+	"GW_Functions.hpp"
+	"../t/GW_ArrayList.hpp"
+	"GW_CollisionnableAdmin.hpp"
+
+1314468688 c:\users\julien\_c\++\t\galaxywar\t\gw_arraylist.hpp
+
+1315149642 c:\users\julien\_c\++\t\galaxywar\h\gw_collisionnableadmin.hpp
+	"GW_GraphicsDeclarer.hpp"
+	"GW_Constantes.hpp"
+	"GW_JeuData.hpp"
+
+1315200779 c:\users\julien\_c\++\t\galaxywar\h\gw_jeudata.hpp
+	"../t/GW_ArrayList.hpp"
+
+1314293259 c:\users\julien\_c\++\t\galaxywar\h\gw_tsl.hpp
+	"Typedefs.hpp"
+	"GW_GraphicsDeclarer.hpp"
+
+1357484607 source:c:\users\julien\_c\++\t\galaxywar\c\gw_collisionnable.cpp
+	<SFML/Graphics/Shape.hpp>
+	"../h/GW_Collisionnable.hpp"
+	"../h/GW_JeuData.hpp"
+
+1315564411 source:c:\users\julien\_c\++\t\galaxywar\c\gw_collisionnableadmin.cpp
+	"../h/GW_GraphicsIncluser.hpp"
+	"../h/GW_CollisionnableAdmin.hpp"
+	"../h/GW_CollisionnableIncluser.hpp"
+	"../h/GW_VolatileAdmin.hpp"
+	"../h/GW_VolatileIncluser.hpp"
+
+1315390535 c:\users\julien\_c\++\t\galaxywar\h\gw_collisionnableincluser.hpp
+	"GW_Ennemi_A.hpp"
+	"GW_Ennemi_B.hpp"
+	"GW_Ennemi_C.hpp"
+	"GW_Ennemi_D.hpp"
+	"GW_Ennemi_E.hpp"
+	"GW_Ennemi_F.hpp"
+	"GW_Ennemi_G.hpp"
+	"GW_Ennemi_H.hpp"
+	"GW_Ennemi_I.hpp"
+	"GW_Ennemi_J.hpp"
+	"GW_Ennemi_K.hpp"
+	"GW_Ennemi_L.hpp"
+	"GW_Ennemi_M.hpp"
+	"GW_Joueur.hpp"
+	"GW_Tir_A.hpp"
+	"GW_Tir_B.hpp"
+	"GW_Tir_C.hpp"
+	"GW_Tir_Kube.hpp"
+	"GW_Tir_W.hpp"
+	"GW_Tir_X.hpp"
+	"GW_Tir_Y.hpp"
+	"GW_Tir_Z.hpp"
+
+1315322493 c:\users\julien\_c\++\t\galaxywar\h\gw_ennemi_a.hpp
+	"GW_Ennemi.hpp"
+
+1314528436 c:\users\julien\_c\++\t\galaxywar\h\gw_ennemi_b.hpp
+	"GW_Ennemi.hpp"
+
+1314618333 c:\users\julien\_c\++\t\galaxywar\h\gw_ennemi_c.hpp
+	"GW_Ennemi.hpp"
+
+1315200779 c:\users\julien\_c\++\t\galaxywar\h\gw_ennemi_d.hpp
+	"GW_Ennemi.hpp"
+
+1314528436 c:\users\julien\_c\++\t\galaxywar\h\gw_ennemi_e.hpp
+	"GW_Ennemi.hpp"
+
+1315322493 c:\users\julien\_c\++\t\galaxywar\h\gw_ennemi_f.hpp
+	"GW_Ennemi_E.hpp"
+
+1315322493 c:\users\julien\_c\++\t\galaxywar\h\gw_ennemi_g.hpp
+	"GW_Ennemi.hpp"
+
+1315717588 c:\users\julien\_c\++\t\galaxywar\h\gw_ennemi_h.hpp
+	"GW_Ennemi.hpp"
+
+1315322493 c:\users\julien\_c\++\t\galaxywar\h\gw_ennemi_i.hpp
+	"GW_Ennemi.hpp"
+
+1315333000 c:\users\julien\_c\++\t\galaxywar\h\gw_ennemi_k.hpp
+	"GW_Ennemi.hpp"
+
+1315204163 c:\users\julien\_c\++\t\galaxywar\h\gw_ennemi_l.hpp
+	"GW_Ennemi.hpp"
+
+1315717294 c:\users\julien\_c\++\t\galaxywar\h\gw_ennemi_m.hpp
+	"GW_Ennemi.hpp"
+
+1475336461 c:\users\julien\_c\++\t\galaxywar\h\gw_joueur.hpp
+	"GW_Ennemi.hpp"
+
+1315062851 c:\users\julien\_c\++\t\galaxywar\h\gw_tir_a.hpp
+	"GW_Tir.hpp"
+
+1315155555 c:\users\julien\_c\++\t\galaxywar\h\gw_tir.hpp
+	"GW_Collisionnable.hpp"
+
+1315125020 c:\users\julien\_c\++\t\galaxywar\h\gw_tir_b.hpp
+	"GW_Tir.hpp"
+
+1315244718 c:\users\julien\_c\++\t\galaxywar\h\gw_tir_c.hpp
+	"GW_Tir.hpp"
+
+1315717488 c:\users\julien\_c\++\t\galaxywar\h\gw_tir_kube.hpp
+	"GW_Tir.hpp"
+
+1315390574 c:\users\julien\_c\++\t\galaxywar\h\gw_tir_w.hpp
+	"GW_Tir.hpp"
+
+1315717488 c:\users\julien\_c\++\t\galaxywar\h\gw_tir_x.hpp
+	"GW_Tir.hpp"
+	<SFML/Graphics/Color.hpp>
+
+1315717509 c:\users\julien\_c\++\t\galaxywar\h\gw_tir_y.hpp
+	"GW_Tir.hpp"
+
+1315717509 c:\users\julien\_c\++\t\galaxywar\h\gw_tir_z.hpp
+	"GW_Tir.hpp"
+
+1314468245 c:\users\julien\_c\++\t\galaxywar\h\gw_volatileadmin.hpp
+	"../h/GW_Volatile.hpp"
+	"../t/GW_ArrayList.hpp"
+
+1315158178 c:\users\julien\_c\++\t\galaxywar\h\gw_volatileincluser.hpp
+	"GW_BoomAnim.hpp"
+	"GW_Number.hpp"
+	"GW_Fleur.hpp"
+	"GW_Bulle.hpp"
+	"GW_ExploTir.hpp"
+
+1315717426 c:\users\julien\_c\++\t\galaxywar\h\gw_number.hpp
+	"GW_Volatile.hpp"
+	"GW_TSL.hpp"
+
+1315717426 c:\users\julien\_c\++\t\galaxywar\h\gw_fleur.hpp
+	"GW_Volatile.hpp"
+	<SFML/Graphics/Color.hpp>
+
+1315717426 c:\users\julien\_c\++\t\galaxywar\h\gw_explotir.hpp
+	"GW_Volatile.hpp"
+
+1315247998 source:c:\users\julien\_c\++\t\galaxywar\c\gw_collisionnableadmin_close.cpp
+	"../h/GW_GraphicsIncluser.hpp"
+	"../h/GW_CollisionnableIncluser.hpp"
+
+1315247931 source:c:\users\julien\_c\++\t\galaxywar\c\gw_collisionnableadmin_dead.cpp
+	"../h/GW_GraphicsIncluser.hpp"
+	"../h/GW_CollisionnableIncluser.hpp"
+	"../h/GW_Palette.hpp"
+	"../h/GW_BoomAnim.hpp"
+	"../h/GW_Number.hpp"
+	"../h/GW_Fleur.hpp"
+	"../h/GW_Bulle.hpp"
+	"../h/GW_VolatileAdmin.hpp"
+
+1314468319 c:\users\julien\_c\++\t\galaxywar\h\gw_palette.hpp
+	"GW_GraphicsDeclarer.hpp"
+	"Typedefs.hpp"
+	<iostream>
+
+1315248025 source:c:\users\julien\_c\++\t\galaxywar\c\gw_collisionnableadmin_draw.cpp
+	"../h/GW_GraphicsIncluser.hpp"
+	"../h/GW_CollisionnableIncluser.hpp"
+	"../h/GW_Palette.hpp"
+
+1315248119 source:c:\users\julien\_c\++\t\galaxywar\c\gw_collisionnableadmin_getpolygon.cpp
+	<SFML/Graphics/Shape.hpp>
+	"../h/GW_CollisionnableIncluser.hpp"
+
+1315414561 source:c:\users\julien\_c\++\t\galaxywar\c\gw_collisionnableadmin_init.cpp
+	"../h/GW_GraphicsIncluser.hpp"
+	"../h/GW_CollisionnableIncluser.hpp"
+	"../h/GW_TSL.hpp"
+
+1315200779 source:c:\users\julien\_c\++\t\galaxywar\c\gw_collisionnableadmin_others.cpp
+	"../h/GW_GraphicsIncluser.hpp"
+	"../h/GW_CollisionnableIncluser.hpp"
+	"../h/GW_KeySettings.hpp"
+
+1313868229 c:\users\julien\_c\++\t\galaxywar\h\gw_keysettings.hpp
+	"Typedefs.hpp"
+
+1314544975 source:c:\users\julien\_c\++\t\galaxywar\c\gw_cryptograph.cpp
+	<cstdlib>
+	"../h/GW_Cryptograph.hpp"
+
+1313858725 c:\users\julien\_c\++\t\galaxywar\h\gw_cryptograph.hpp
+	"Typedefs.hpp"
+
+1314528930 source:c:\users\julien\_c\++\t\galaxywar\c\gw_ennemi.cpp
+	"../h/GW_Ennemi.hpp"
+
+1315322636 source:c:\users\julien\_c\++\t\galaxywar\c\gw_ennemi_a.cpp
+	"../h/GW_Ennemi_A.hpp"
+	"../h/GW_Tir_Z.hpp"
+	"../h/GW_JeuData.hpp"
+	"../h/GW_Joueur.hpp"
+
+1315200779 source:c:\users\julien\_c\++\t\galaxywar\c\gw_ennemi_b.cpp
+	"../h/GW_Ennemi_B.hpp"
+	"../h/GW_Tir_Z.hpp"
+	"../h/GW_JeuData.hpp"
+	"../h/GW_Joueur.hpp"
+
+1314618333 source:c:\users\julien\_c\++\t\galaxywar\c\gw_ennemi_c.cpp
+	"../h/GW_Ennemi_C.hpp"
+	"../h/GW_Tir_Z.hpp"
+	"../h/GW_JeuData.hpp"
+
+1315200779 source:c:\users\julien\_c\++\t\galaxywar\c\gw_ennemi_d.cpp
+	"../h/GW_Ennemi_D.hpp"
+	"../h/GW_Tir.hpp"
+	"../h/GW_JeuData.hpp"
+	"../h/GW_Joueur.hpp"
+
+1315200779 source:c:\users\julien\_c\++\t\galaxywar\c\gw_ennemi_e.cpp
+	"../h/GW_Ennemi_E.hpp"
+	"../h/GW_Tir_Z.hpp"
+	"../h/GW_JeuData.hpp"
+	"../h/GW_Joueur.hpp"
+
+1315322589 source:c:\users\julien\_c\++\t\galaxywar\c\gw_ennemi_f.cpp
+	"../h/GW_Ennemi_F.hpp"
+	"../h/GW_Tir_Z.hpp"
+	"../h/GW_JeuData.hpp"
+	"../h/GW_Joueur.hpp"
+
+1315322865 source:c:\users\julien\_c\++\t\galaxywar\c\gw_ennemi_g.cpp
+	"../h/GW_Ennemi_G.hpp"
+	"../h/GW_Tir.hpp"
+
+1315332347 source:c:\users\julien\_c\++\t\galaxywar\c\gw_ennemi_h.cpp
+	"../h/GW_Ennemi_H.hpp"
+	"../h/GW_Tir_X.hpp"
+	"../h/GW_JeuData.hpp"
+	"../h/GW_Joueur.hpp"
+	"../h/GW_TSL.hpp"
+
+1315376611 source:c:\users\julien\_c\++\t\galaxywar\c\gw_ennemi_i.cpp
+	"../h/GW_Ennemi_I.hpp"
+	"../h/GW_Tir_Z.hpp"
+	"../h/GW_JeuData.hpp"
+	"../h/GW_Joueur.hpp"
+	"../h/GW_TSL.hpp"
+
+1326922003 source:c:\users\julien\_c\++\t\galaxywar\c\gw_ennemi_j.cpp
+	"../h/GW_Ennemi_J.hpp"
+	"../h/GW_Tir_Z.hpp"
+	"../h/GW_JeuData.hpp"
+	"../h/GW_Joueur.hpp"
+	"../h/GW_TSL.hpp"
+
+1315333331 source:c:\users\julien\_c\++\t\galaxywar\c\gw_ennemi_k.cpp
+	<SFML/Graphics/Color.hpp>
+	<cmath>
+	"../h/GW_Ennemi_K.hpp"
+	"../h/GW_Palette.hpp"
+	"../h/GW_Tir_Kube.hpp"
+	"../h/GW_BoomAnim.hpp"
+	"../h/GW_VolatileAdmin.hpp"
+	"../h/GW_JeuData.hpp"
+
+1315205930 source:c:\users\julien\_c\++\t\galaxywar\c\gw_ennemi_l.cpp
+	"../h/GW_Tir.hpp"
+	"../h/GW_Ennemi_L.hpp"
+	"../h/GW_JeuData.hpp"
+	"../h/GW_Fleur.hpp"
+	"../h/GW_VolatileAdmin.hpp"
+
+1326920209 source:c:\users\julien\_c\++\t\galaxywar\c\gw_ennemi_m.cpp
+	"../h/GW_Ennemi_M.hpp"
+	"../h/GW_Tir_W.hpp"
+	"../h/GW_JeuData.hpp"
+	"../h/GW_Joueur.hpp"
+	"../h/GW_TSL.hpp"
+	"../h/GW_GraphicsIncluser.hpp"
+	"../h/GW_BoomAnim.hpp"
+	"../h/GW_VolatileAdmin.hpp"
+
+1315151787 source:c:\users\julien\_c\++\t\galaxywar\c\gw_explotir.cpp
+	"../h/GW_GraphicsIncluser.hpp"
+	"../h/GW_ExploTir.hpp"
+	"../h/GW_Collisionnable.hpp"
+
+1314857849 source:c:\users\julien\_c\++\t\galaxywar\c\gw_fleur.cpp
+	"../h/GW_GraphicsIncluser.hpp"
+	"../h/GW_Fleur.hpp"
+	"../h/GW_Collisionnable.hpp"
+
+1314857875 source:c:\users\julien\_c\++\t\galaxywar\c\gw_functions.cpp
+	"../h/GW_GraphicsIncluser.hpp"
+	"../h/GW_Functions.hpp"
+	<cstdio>
+
+1313947053 source:c:\users\julien\_c\++\t\galaxywar\c\gw_gameset.cpp
+	"../h/GW_GraphicsIncluser.hpp"
+	"../h/GW_GameSet.hpp"
+	"../h/GW_Menu.hpp"
+	"../h/GW_Jeu.hpp"
+	"../h/GW_BackGround.hpp"
+
+1313866102 c:\users\julien\_c\++\t\galaxywar\h\gw_gameset.hpp
+	"GW_Constantes.hpp"
+	"GW_Jeu.hpp"
+	"GW_Menu.hpp"
+	"GW_BackGround.hpp"
+
+1315200779 c:\users\julien\_c\++\t\galaxywar\h\gw_jeu.hpp
+	"GW_Constantes.hpp"
+	"GW_JeuData.hpp"
+	"GW_GraphicsDeclarer.hpp"
+
+1313947017 c:\users\julien\_c\++\t\galaxywar\h\gw_menu.hpp
+	"GW_Constantes.hpp"
+	"GW_GraphicsDeclarer.hpp"
+	<SFML/Graphics/String.hpp>
+
+1308752278 c:\users\julien\_c\++\t\lib\sfml\graphics\string.hpp
+	<SFML/System/Resource.hpp>
+	<SFML/System/Unicode.hpp>
+	<SFML/Graphics/Drawable.hpp>
+	<SFML/Graphics/Font.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<string>
+
+1308752280 c:\users\julien\_c\++\t\lib\sfml\system\unicode.hpp
+	<SFML/Config.hpp>
+	<iterator>
+	<locale>
+	<string>
+	<stdlib.h>
+	<SFML/System/Unicode.inl>
+
+1308752280 c:\users\julien\_c\++\t\lib\sfml\system\unicode.inl
+
+1308752278 c:\users\julien\_c\++\t\lib\sfml\graphics\font.hpp
+	<SFML/System/Resource.hpp>
+	<SFML/System/Vector2.hpp>
+	<SFML/System/Unicode.hpp>
+	<SFML/Graphics/Glyph.hpp>
+	<SFML/Graphics/Image.hpp>
+	<SFML/Graphics/Rect.hpp>
+	<map>
+	<string>
+
+1308752278 c:\users\julien\_c\++\t\lib\sfml\graphics\glyph.hpp
+	<SFML/Config.hpp>
+	<SFML/Graphics/Rect.hpp>
+
+1315200779 source:c:\users\julien\_c\++\t\galaxywar\c\gw_jeu.cpp
+	"../h/GW_GraphicsIncluser.hpp"
+	"../h/GW_GameSet.hpp"
+	"../h/GW_Jeu.hpp"
+	"../h/GW_JeuData.hpp"
+	"../h/GW_Number.hpp"
+	"../h/GW_VolatileAdmin.hpp"
+	"../h/GW_CollisionnableAdmin.hpp"
+	"../h/GW_Tir.hpp"
+	"../h/GW_Joueur.hpp"
+	"../h/GW_Ennemi_G.hpp"
+
+1475336215 source:c:\users\julien\_c\++\t\galaxywar\c\gw_joueur.cpp
+	"../h/GW_Joueur.hpp"
+	"../h/GW_Tir_A.hpp"
+	"../h/GW_Tir_B.hpp"
+	"../h/GW_Tir_C.hpp"
+	"../h/GW_Tir_Z.hpp"
+	"../h/GW_BoomAnim.hpp"
+	"../h/GW_VolatileAdmin.hpp"
+	"../h/GW_JeuData.hpp"
+	"../h/GW_KeySettings.hpp"
+
+1314470052 source:c:\users\julien\_c\++\t\galaxywar\c\gw_keysettings.cpp
+	"../h/GW_KeySettings.hpp"
+
+1313947069 source:c:\users\julien\_c\++\t\galaxywar\c\gw_menu.cpp
+	"../h/GW_GraphicsIncluser.hpp"
+	"../h/GW_Menu.hpp"
+	"../h/GW_GameSet.hpp"
+
+1314969101 source:c:\users\julien\_c\++\t\galaxywar\c\gw_number.cpp
+	"../h/GW_GraphicsIncluser.hpp"
+	"../h/GW_Number.hpp"
+
+1313947548 source:c:\users\julien\_c\++\t\galaxywar\c\gw_palette.cpp
+	<SFML/Graphics/Color.hpp>
+	"../h/GW_Palette.hpp"
+
+1314544715 source:c:\users\julien\_c\++\t\galaxywar\c\gw_tsl.cpp
+	"../h/GW_TSL.hpp"
+	<SFML/Graphics/Color.hpp>
+	<SFML/Graphics/Image.hpp>
+
+1315155189 source:c:\users\julien\_c\++\t\galaxywar\c\gw_tir.cpp
+	"../h/GW_Tir.hpp"
+
+1315151629 source:c:\users\julien\_c\++\t\galaxywar\c\gw_tir_a.cpp
+	"../h/GW_Tir_A.hpp"
+
+1315125059 source:c:\users\julien\_c\++\t\galaxywar\c\gw_tir_b.cpp
+	"../h/GW_Tir_B.hpp"
+
+1315414904 source:c:\users\julien\_c\++\t\galaxywar\c\gw_tir_c.cpp
+	"../h/GW_Tir_C.hpp"
+
+1315205046 source:c:\users\julien\_c\++\t\galaxywar\c\gw_tir_kube.cpp
+	<SFML/Graphics/Color.hpp>
+	"../h/GW_Tir_Kube.hpp"
+
+1326826512 source:c:\users\julien\_c\++\t\galaxywar\c\gw_tir_w.cpp
+	"../h/GW_Tir_W.hpp"
+	"../h/GW_GraphicsIncluser.hpp"
+
+1315153885 source:c:\users\julien\_c\++\t\galaxywar\c\gw_tir_x.cpp
+	"../h/GW_Tir_X.hpp"
+
+1314528128 source:c:\users\julien\_c\++\t\galaxywar\c\gw_tir_y.cpp
+	"../h/GW_Tir_Y.hpp"
+	"../h/GW_TSL.hpp"
+	"../h/GW_Functions.hpp"
+
+1315150827 source:c:\users\julien\_c\++\t\galaxywar\c\gw_tir_z.cpp
+	"../h/GW_Tir_Z.hpp"
+
+1313852174 source:c:\users\julien\_c\++\t\galaxywar\c\gw_volatile.cpp
+	"../h/GW_Volatile.hpp"
+
+1315158273 source:c:\users\julien\_c\++\t\galaxywar\c\gw_volatileadmin.cpp
+	"../h/GW_VolatileAdmin.hpp"
+	"../h/GW_VolatileIncluser.hpp"
+
+1308994586 source:c:\users\julien\_c\++\t\galaxywar\rc\galaxywar.rc
+
+1475336516 source:c:\users\julien\_c\++\t\galaxywar\c\galaxywar.cpp
+	<SFML/System/Clock.hpp>
+	"../h/GW_GraphicsIncluser.hpp"
+	"../h/GW_Constantes.hpp"
+	"../h/GW_GameSet.hpp"
+	"../h/GW_Collisionnable.hpp"
+	"../h/GW_Joueur.hpp"
+
